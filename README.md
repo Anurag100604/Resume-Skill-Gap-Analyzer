@@ -1,4 +1,4 @@
-# AI-Based Resume Skill Gap Analyzer
+# Resume Skill Gap Analyzer
 
 ## Objective
 
