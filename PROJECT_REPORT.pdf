@@ -1,0 +1,200 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4436 >>
+stream
+BT
+/F2 20 Tf 54 790 Td (Project Report: AI-Based Resume Skill Gap Analyzer) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 763 Td (Report date: 3 October 2026) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 749 Td (Project level: Beginner-to-medium college project) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 735 Td (Implementation: Python text processing with a Streamlit interface) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 716 Td (1. Project objective) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 693 Td (The AI-Based Resume Skill Gap Analyzer compares skills found in a text-based) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 679 Td (resume PDF with skills mentioned in a job description. It presents matching) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 665 Td (skills, missing skills, a Skill Match Score, and a plain-language) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 651 Td (recommendation for each missing skill.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 632 Td (Despite the project name, the current implementation does not use machine) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 618 Td (learning or advanced AI. It uses a predefined skill list and keyword matching.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 604 Td (It does not produce a professional ATS score.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 585 Td (2. Project files) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 562 Td (File  |  Purpose  |  Status) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 548 Td (app.py  |  Main Streamlit application, PDF extraction, skill detection, comparison, and) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 534 Td (results display  |  Created/updated) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 520 Td (requirements.txt  |  Required Python packages: Streamlit and PyPDF2  |  Created/updated) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 506 Td (README.md  |  Project overview, setup instructions, examples, limitations, and future) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 492 Td (improvements  |  Created/updated) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 478 Td (sample/sample_job_description.txt  |  Example job description for manual testing  |) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 464 Td (Already present; retained) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 450 Td (PROJECT_REPORT.md  |  This report  |  Created) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 431 Td (Other pre-existing workspace items, including Project.py and the New) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 417 Td (Project folder, were not changed as part of this work.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 398 Td (3. Features implemented) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 375 Td (- Upload a resume PDF and paste a job description in the app.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 361 Td (- Extract and combine text from every PDF page using PyPDF2.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 347 Td (- Detect the predefined technical skills without regard to letter case.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 333 Td (- Recognize aliases:) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 319 Td (- ML as Machine Learning) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 305 Td (- AI as Artificial Intelligence) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 291 Td (- JS as JavaScript) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 277 Td (- ReactJS as React) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 263 Td (- NodeJS as Node.js) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 249 Td (- Avoid treating the letter C inside ordinary words as the C programming) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 235 Td (language; distinguish it from C++ and C#.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 221 Td (- Compare skill sets:) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 207 Td (- Matching skills = resume skills intersect required skills.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 193 Td (- Missing skills = required skills minus resume skills.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 179 Td (- Calculate the Skill Match Score as:) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 160 Td (\(number of matching required skills / number of required skills\) * 100) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 141 Td (The result is rounded to one decimal place. No score is shown when no) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 127 Td (recognizable skills are found in the job description.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 113 Td (- Categorize scores as Strong \(80100%\), Good \(6079%\), Partial \(4059%\), or) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 99 Td (Low \(below 40%\) Skill Match.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 85 Td (- Generate one learning recommendation for each missing skill.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 71 Td (- Show friendly messages for missing input, unreadable or invalid PDFs, PDFs) Tj 1 0 0 1 -62 0 Tm
+/F1 8 Tf 270 28 Td (Page 1 of 3) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4065 >>
+stream
+BT
+/F1 10 Tf 54 790 Td (with no extractable text, and descriptions without recognized skills.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 771 Td (The recognized skills are kept in the editable SKILLS list in app.py.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 752 Td (4. Technologies and dependencies) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 729 Td (- Python) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 715 Td (- Streamlit) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 701 Td (- PyPDF2) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 687 Td (- Python standard-library modules: io and re) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 668 Td (The workspace virtual environment already contained Streamlit 1.65.0 and) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 654 Td (PyPDF2 3.0.1. No package installation was necessary during this work.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 635 Td (No database, authentication, paid API, web framework other than Streamlit,) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 621 Td (machine-learning package, or external AI service is used.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 602 Td (5. Validation performed) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 579 Td (The following checks were performed:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 560 Td (1. Syntax check: app.py compiled successfully with Python's py_compile.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 546 Td (2. Helper tests: Five tests passed for:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 532 Td (- Alias and common-skill detection.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 518 Td (- Correct detection of standalone C and avoidance of false matches inside) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 504 Td (words or C++/C#.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 490 Td (- Match-score calculation and empty required-skill handling.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 476 Td (- Recommendation generation.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 462 Td (- Invalid PDF handling and empty PDF text extraction.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 448 Td (3. Streamlit smoke test: The app page and health endpoint both responded) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 434 Td (with HTTP 200 on port 8502.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 420 Td (4. Browser workflow test: A temporary text-based test PDF was uploaded,) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 406 Td (a job description was entered, and Analyze Resume displayed results.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 392 Td (The test showed 9 resume skills, 7 required skills, 3 matching skills,) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 378 Td (4 missing skills, and a 42.9% Skill Match Score. The temporary test PDF was) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 364 Td (removed afterward.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 350 Td (5. Port handling: Port 8501 was already occupied, so the test server used) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 336 Td (port 8502. The existing process on 8501 was left untouched.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 317 Td (The initial invalid PDF used in the browser flow correctly produced the) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 303 Td (requested unreadable-PDF message; a valid temporary PDF was then used to) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 289 Td (complete the successful end-to-end browser test.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 270 Td (6. Running the project) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 247 Td (Open a terminal in the project folder and install dependencies if needed:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 228 Td (powershell) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 214 Td (python -m pip install -r requirements.txt) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 200 Td () Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 181 Td (Start the Streamlit application:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 162 Td (powershell) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 148 Td (python -m streamlit run app.py) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 134 Td () Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 115 Td (If python is not available on Windows PATH but the workspace virtual) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 101 Td (environment is present, run:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 82 Td (powershell) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 68 Td (.\\.venv\\Scripts\\python.exe -m streamlit run app.py) Tj 1 0 0 1 -54 0 Tm
+/F1 8 Tf 270 28 Td (Page 2 of 3) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 3836 >>
+stream
+BT
+/F1 10 Tf 54 790 Td () Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 771 Td (Streamlit prints the address and port it selected. To stop the server, press) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 757 Td (Ctrl+C in its terminal.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 738 Td (7. Browser access and deployment status) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 715 Td (During the latest check, the app responded at:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 696 Td (- http://localhost:8502) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 682 Td (- http://127.0.0.1:8502) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 663 Td (These are local addresses and work on the computer running the app while its) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 649 Td (Streamlit server is running. They are not permanent hosted links.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 630 Td (The app has not been deployed to a public hosting service. An address such) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 616 Td (as http://192.168.1.7:8502 may work for another device on the same local) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 602 Td (network, subject to firewall and network settings; that address can change and) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 588 Td (is not a public deployment.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 569 Td (8. Example analysis) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 546 Td (Example job description:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 527 Td (text) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 513 Td (We are looking for a Python Developer with experience in Python, SQL, Git,) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 499 Td (Docker and AWS. Knowledge of REST API and Machine Learning is an advantage.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 485 Td () Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 466 Td (With a sample resume containing Python, SQL, Git, HTML, CSS, JavaScript,) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 452 Td (Pandas, Django, and MySQL, the application reports:) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 433 Td (- Resume skills detected: 9) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 419 Td (- Required skills detected: 7) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 405 Td (- Matching skills: Python, SQL, Git) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 391 Td (- Missing skills: Docker, AWS, Machine Learning, REST API) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 377 Td (- Skill Match Score: 42.9%  Partial Skill Match) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 358 Td (Recommendations are displayed for each of Docker, AWS, Machine Learning, and) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 54 344 Td (REST API.) Tj 1 0 0 1 -54 0 Tm
+/F2 14 Tf 54 325 Td (9. Limitations) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 302 Td (- Keyword matching does not understand context or related concepts.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 288 Td (- Only skills in the predefined list and supported aliases are recognized.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 274 Td (- Scanned PDFs made of images generally have no extractable text.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 260 Td (- The app does not evaluate skill proficiency, experience quality, or resume) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 54 246 Td (sections.) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 232 Td (- The app does not save resumes or results to a database.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 218 Td (- The app is a local Streamlit application unless separately deployed.) Tj 1 0 0 1 -62 0 Tm
+/F2 14 Tf 54 199 Td (10. Suggested future improvements) Tj 1 0 0 1 -54 0 Tm
+/F1 10 Tf 62 176 Td (- Extend the editable skills list with carefully chosen aliases.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 162 Td (- Add support for additional document formats.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 148 Td (- Provide visual comparison of resume and job skills.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 134 Td (- Add resume section detection and more detailed, explainable feedback.) Tj 1 0 0 1 -62 0 Tm
+/F1 10 Tf 62 120 Td (- Deploy through a hosting service if a stable public link is needed.) Tj 1 0 0 1 -62 0 Tm
+/F1 8 Tf 270 28 Td (Page 3 of 3) Tj
+ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000230 00000 n 
+0000000332 00000 n 
+0000000468 00000 n 
+0000004956 00000 n 
+0000005092 00000 n 
+0000009209 00000 n 
+0000009346 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+13235
+%%EOF

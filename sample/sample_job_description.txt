@@ -1,0 +1,1 @@
+We are looking for a Python Developer with experience in Python, SQL, Git, Docker and AWS. Knowledge of REST API and Machine Learning is an advantage.
